@@ -131,4 +131,50 @@
     <string name="simContacts_emptyLoading" msgid="6700035985448642408">"SIM 카드에서 로딩 중..."</string>
     <string name="simContacts_title" msgid="27341688347689769">"SIM 카드 주소록"</string>
     <string name="add_contact_not_available" msgid="1419207765446461366">"이 기능을 사용하려면 주소록 애플리케이션을 사용하도록 다시 설정하세요."</string>
+    <string name="call_stats">통화기록</string>
+    <string name="call_stats_refresh">새로고침</string>
+    <string name="activity_title_call_stats">통화기록</string>
+    <string name="call_stats_nav_all">모두</string>
+    <string name="call_stats_nav_incoming">수신</string>
+    <string name="call_stats_nav_outgoing">송신</string>
+    <string name="call_stats_nav_missed">부재</string>
+    <string name="call_stats_incoming">수신: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">송신: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">부재</string>
+    <string name="call_stats_missed_percent">부재: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">합계: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">합계: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">시작일</string>
+    <string name="call_stats_filter_to">종료일</string>
+    <string name="call_stats_filter_picker_title">검색 범위</string>
+    <string name="date_quick_selection">빠른 선택</string>
+    <string name="date_qs_currentmonth">이번 달</string>
+    <string name="date_qs_currentquarter">이번 분기</string>
+    <string name="date_qs_currentyear">이번 년도</string>
+    <string name="date_qs_lastweek">마지막 주</string>
+    <string name="date_qs_lastmonth">마지막 달</string>
+    <string name="date_qs_lastquarter">마지막 분기</string>
+    <string name="date_qs_lastyear">마지막 년도</string>
+    <string name="call_stats_date_filter">시간 범위 조정</string>
+    <string name="call_stats_reset_filter">시간 범위 리셋</string>
+    <string name="call_stats_sort_by_duration">통화시간 으로 정렬</string>
+    <string name="call_stats_sort_by_count">통화량 으로 정렬</string>
+    <plurals name="hour">
+        <item quantity="one">1 시간</item>
+        <item quantity="other">%d 시간</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">1 분</item>
+        <item quantity="other">%d 분</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">1 초</item>
+        <item quantity="other">%d 초</item>
+    </plurals>
+    <plurals name="call">
+        <item quantity="one">1 통화</item>
+        <item quantity="other">%d 통화</item>
+    </plurals>
+    <string name="menu_add_to_blacklist">수신거부 목록에 추가</string>
+    <string name="toast_added_to_blacklist">%s : 수신거부 목록에 추가되었습니다.</string>
 </resources>
